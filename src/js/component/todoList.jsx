@@ -1,5 +1,11 @@
 import React from "react";
 
 export const TodoList = ({ children }) => {
-  return <ul className="TodoList">{children}</ul>;
+  return (
+    <div className="row">
+      <div className="col ">
+        <ul className="TodoList">{children}</ul>;
+      </div>
+    </div>
+  );
 };
